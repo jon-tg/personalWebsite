@@ -1,0 +1,221 @@
+body
+{
+  
+  background-size: 40px 40px;
+  background-image:radial-gradient(rgb(0,0,0,.5) 1px, transparent 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+#background-container
+{
+  position:relative;
+  height:90vh;
+  color:antiquewhite;
+
+}
+#text-container
+{
+  position:relative;
+  top:35vh;
+  font-size: 21px;
+  text-align: center;
+
+}
+h4,h1
+{
+  margin:1px;
+  padding:1px;
+}
+
+#NYU
+{
+  color:violet;
+}
+#view-projects
+{
+  width:200px;
+  height:50px;
+  border:.5px solid whitesmoke;
+  position:relative;
+  left:43vw;
+  right:43vw;
+  top:38vh;
+}
+#view-projects button
+{
+  top:1.5vh;
+  margin:0;
+ 
+}
+#languages
+{
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10vh;
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+  
+  
+}
+
+#languages img
+{
+ padding-left:.2vw;
+ padding-right:.2vw;
+}
+
+#skills{
+  color:#0a205a;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5vh;
+  margin-bottom: 0;
+}
+#projects 
+{
+  margin-top: 5vh;
+  color: #0a205a;
+  text-align: center;
+
+
+}
+#projects-header
+{
+  color: #0a205a;
+  text-align: center;
+}
+
+
+button
+{
+  background: none;
+  border: none;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.05em;
+  position:relative;
+  top:2vh;
+  left:2vw;
+
+}
+
+
+.line
+{
+  text-align: center;
+  color: #0a205a;
+  margin-top: 0;
+  margin-bottom: 5vh;
+
+}
+
+#contact
+{
+  font-size:.8em;
+}
+
+
+
+#projects h4
+{
+  margin-top:0;
+  margin-bottom:1vh;
+}
+#projects h3{
+  margin-bottom:0;
+}
+
+.project
+{
+  justify-content:center;
+  margin-bottom:2vh;
+}
+
+#chatroom img
+{
+  padding:1vw;
+  border:1px solid black;
+  box-sizing:border-box;
+  margin:.5vw;
+  margin-right:0;
+
+}
+
+ul
+{
+  text-align: left;
+  margin-left:0;
+  list-style: none;
+  font-size: .93em;
+}
+
+#Projects
+{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+#memory-game img
+{
+  margin-right:.3vw;
+}
+
+
+#memory-imgs
+{
+  display:flex;
+  width:60%;
+  flex-wrap:wrap;
+}
+
+#Project
+{
+  display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+}
+
+.hidden
+{
+  opacity:0;
+  transition: all 1s;
+  filter:blur(2px);
+}
+.show
+{
+  filter:blur(0);
+  opacity:1;
+
+}
+#page2 .hidden img
+{
+  transform: translateX(-100%);
+  transition: all 2s;
+
+}
+
+#page2 .show img
+{ 
+  transform: translateX(0);
+
+}
+
+#projects .hidden 
+{
+  transform: translateX(40%);
+  transition: all 2s;
+
+}
+#projects .show
+{
+  transform: translateX(0);
+}
+#stockApp img
+{
+  border: black 1px solid;
+}
